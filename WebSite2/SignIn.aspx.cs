@@ -33,7 +33,7 @@ public partial class Default4 : System.Web.UI.Page
         command.ExecuteNonQuery();
         SqlCon.Close();
 
-        Server.Transfer("Default2.aspx", true);
+        Server.Transfer("Login.aspx", true);
 
 
 
